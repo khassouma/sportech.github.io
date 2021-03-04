@@ -1,0 +1,247 @@
+/*ALL*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.champ_detail_stat p img{
+ width: 80px;
+ height: 80px;
+ margin: auto;
+ 
+}
+
+.champ_detail img{
+ transition: all 0.3s linear;
+ filter: none;
+}
+
+.champ_detail img:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+   }
+
+.logo_{
+    width: 30px;
+    height: 30px;
+}
+.logo_f{
+    width: 50px;
+    height: 50px;
+}
+
+/* disiplines */
+
+.titre{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#presentation{
+    text-align: justify;
+    
+}
+
+.disiplines_img img{
+    /* transition: all 1s linear; */
+    width: 100%;
+    height: auto;
+    margin: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.disiplines_img .jumbotron{
+   background: none;
+
+}
+
+.disiplines_img img:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+.sps_ img{
+   margin: 4px;
+}
+
+/* foot */
+#poules img{
+    width: 100;
+}
+
+#poules .btn{
+    border-bottom: 2px dashed black ;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#poules .vs_{
+   text-align: center;
+   font-size: 30px;
+   margin: 10px;
+}
+
+#poules .vs_ p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px;
+ }
+
+.champ_detail i{
+  
+  font-size: 100px;
+}
+
+
+
+.equipe img{
+    width: 50px;
+    height: 70px;
+}
+
+/*navbar*/
+
+#myNavbar {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+#navbar_{
+    z-index: 3;
+}
+
+/* navbar */
+.collapse .navbar-nav .nav-link{
+    color:#fff !important;
+}
+.navbar-brand{
+    color:#fff !important;
+}
+
+/* Tabs*/
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	
+    color: rgb(0, 0, 0);
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* basket */
+.champ_detail_basket img{
+    width: 100%;
+    height: 118px;
+    margin: auto;
+}
+
+.champ_detail_foot img{
+    width: 100%;
+    height: 118px;
+    margin: auto;
+} 
+
+.champ_detail_basket p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+#basket_ img{
+   width: 100%;
+   height: auto;
+}
+
+.caption-1 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .caption-2 figcaption {
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  
+  .caption-3 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+
+/*footer*/
+
+footer {
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background: #343A40;
+}
+
+.footer_1 {
+    font-size: 20px;
+    color: #fff;
+   text-align: left;
+}
+
+.footer_2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer_1 i{
+    font-size: 30px;
+}
+
+
+.footer_1 li{
+   list-style: none;
+}
+
+
+.footer_2 i{
+    font-size: 30px;
+}
+
+
